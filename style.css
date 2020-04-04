@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    font-family:'Lora', serif;
+    line-height: 1.35;
+    background:#f2f6f8;
+}
+.wrapper{                            
+    display:grid;
+    grid-template-rows: auto auto auto;
+    margin:auto;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .25);
+    background: white;
+}
+/*HEADER*/
+.heading{                     /*heading*/
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  grid-gap:10px;
+  align-items: center;
+  color:white;
+  background:#1D1D26;
+  padding: 10px;
+}
+.heading a{               /*links*/
+  text-decoration: none;
+  color: white;
+}
+.heading a:hover{ /*hover over links*/
+  color:#FF1493;
+}
+.heading h2::before{ /*adding logo*/
+  content: "/*";
+  color: #FF1493;
+}
+.heading a i{  /* size of twitter icon*/
+  font-size:30px;
+}
+/*MAIN CONTENT AREA*/
+main{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding:120px;
+  grid-gap:50px; /*!!!!!GAP BETWEEN ROWS LASTEST ARTICLE AND OTHER POSTS!!!!!*/
+  
+}
+/*LATEST ARTICLE AREA*/
+.lastpost{
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+}
+.att{          /*LATEST ARTICLE ICON*/
+  
+  background-color: #FF1493;
+  color:white;
+  padding:10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+  
+}
+.lpost{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: 120%;
+  border:1px solid white;
+  background-color:#DFEDED;
+  
+}
+.lpost h1{
+  padding-left: 10px;
+  
+}
+.lpost h1:hover{
+  color: #FF1493;
+  text-decoration: underline;
+}
+.plast{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.lpost a{
+  
+  text-decoration: none;
+  color: black;
+}
+
+.readmorebutton{        /*read more button*/
+  display:inline;
+  position: relative;
+  left: 80%;
+  border:  1px solid white;
+  border-radius: 10px;
+  padding:5px;
+  
+  
+}
+.readmorebutton:hover{
+  color: #FF1493;
+  border:  1px solid #FF1493;
+  
+  
+}
+.firstline{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:10px;
+  
+}
+.secondline{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:10px;
+ 
+}
+.bpost h2{
+  text-decoration: underline;
+  color: #FF1493;
+  text-decoration-thickness: 3px;
+
+}
+.bpost a{
+ text-decoration: none;
+ color: black;
+}
+.bpost a:hover{
+  color: #FF1493;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.pdate{
+  font-style: italic;
+  font-weight: lighter;
+}
+hr {
+  width: 100%;
+}
+.pagebutton{
+  margin-left: 80%;
+  text-decoration: none;
+  color: black;
+}
+.pagebutton:hover{
+  color: #FF1493;
+}
+
+footer{
+  display:grid;
+  background-color: #f2f6f8;
+}
+footer p{
+  margin-left: 10px;
+}

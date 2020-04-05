@@ -5,9 +5,9 @@
         <title>CSS Grid Layout</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet"> <!--Font Lora-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--FontAwesome for twitter icon  -->
     </head>
-    <body class="wrapper">
+    <body>
         <header class="heading">
             <div class="logo">
                 <h2> CSS {@stefancode}</h2>
@@ -17,69 +17,71 @@
             <a href="#"><i class="fa fa-twitter"></i></a>
 
         </header>
-        <main>
-           <!-- <div class="lastpost">-->
-            <section class="lpost">   
+        <article class="contentarea">
+            <!-- <div class="lastpost">-->
+             <section class="lpost">   
+             
+                 <p><span class="att">Lastest article</span></p>
+                 <a href="#"><h1>Building CSS Grid page</h1></a>
+                 <p class="plast">CSS grid layout or CSS grid is a technique in Cascading Style Sheets that allows web developers to create complex responsive web design layouts more easily and consistently across browsers.</p>
+                 
+                 <p><a href="#" class="readmorebutton">Read more...</a></p>
             
-                <p><span class="att">Lastest article</span></p>
-                <a href="#"><h1>Building CSS Grid page</h1></a>
-                <p class="plast">CSS grid layout or CSS grid is a technique in Cascading Style Sheets that allows web developers to create complex responsive web design layouts more easily and consistently across browsers.</p>
-                
-                <p><a href="#" class="readmorebutton">Read more...</a></p>
-           
-        </section>
-         <!-- </div>-->  
-         <secton class="firstline">
-            
-                <div class="bpost">
-                    <h2><a href="#">grid-template-columns</a></h2>
-                    <p class="pdate">18 March, 2020</p>
-                    <p>Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well.</p>
-                </div>
-                <div class="bpost">
-                    <h2><a href="#">grid-template-rows</a></h2>
-                    <p class="pdate">17 March, 2020</p>
-                    <p>The grid you created in the last challenge will set the number of rows automatically. To adjust the rows manually, use the grid-template-rows property...</p>
-
-                </div>
-                <div class="bpost">
-                    <h2><a href="#">grid-column-gap</a></h2>
-                    <p class="pdate">16 March, 2020</p>
-                    <p>So far in the grids you have created, the columns have all been tight up against each other. Sometimes you want a gap in between the columns. </p>
-
-                </div>
-
-         </secton>
-            <section class="secondline">
-                <div class="bpost">
-                    <h2><a href="#">grid-row-gap</a></h2>
-                    <p class="pdate">15 March, 2020</p>
-                    <p>You can add a gap in between the rows of a grid using grid-row-gap in the same way that you added a gap in between columns</p>
-
-                </div>
-                <div class="bpost">
-                    <h2><a href="#">grid-column</a></h2>
-                    <p class="pdate">14 March, 2020</p>
-                    <p>Up to this point, all the properties that have been discussed are for grid containers. The grid-column property is the first one for use on the grid items themselves.
-                    </p>
-
-                </div>
-                <div class="bpost">
-                    <h2><a href="#">grid-row</a></h2>
-                    <p class="pdate">13 March, 2020</p>
-                    <p>Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the grid-row property on a grid item.
-                    </p>
-
-                </div>
-            </section>
-            <hr>
-            <a class="pagebutton" href="#">Next Page</a>
+         </section>
+          <!-- </div>-->  
+         
+             <section class="fline">
+                 <secton class="bpost firstbp">
+                     <h2><a href="#">grid-template-columns</a></h2>
+                     <p class="pdate">18 March, 2020</p>
+                     <p>Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well.</p>
+                 </secton>
+                 <secton class="bpost secondbp">
+                     <h2><a href="#">grid-template-rows</a></h2>
+                     <p class="pdate">17 March, 2020</p>
+                     <p>The grid you created in the last challenge will set the number of rows automatically. To adjust the rows manually, use the grid-template-rows property...</p>
+ 
+                 </secton>
+                 <secton class="bpost thirdbp">
+                     <h2><a href="#">grid-column-gap</a></h2>
+                     <p class="pdate">16 March, 2020</p>
+                     <p>So far in the grids you have created, the columns have all been tight up against each other. Sometimes you want a gap in between the columns. </p>
+ 
+                 </secton>
+                </section>
+         
+                <section class="sline">
+                 <secton class="bpost fourthbp">
+                     <h2><a href="#">grid-row-gap</a></h2>
+                     <p class="pdate">15 March, 2020</p>
+                     <p>You can add a gap in between the rows of a grid using grid-row-gap in the same way that you added a gap in between columns</p>
+ 
+                 </secton>
+                 <secton class="bpost fifthbp">
+                     <h2><a href="#">grid-column</a></h2>
+                     <p class="pdate">14 March, 2020</p>
+                     <p>Up to this point, all the properties that have been discussed are for grid containers. The grid-column property is the first one for use on the grid items themselves.
+                     </p>
+ 
+                 </secton>
+                 <secton class="bpost sixthbp">
+                     <h2><a href="#">grid-row</a></h2>
+                     <p class="pdate">13 March, 2020</p>
+                     <p>Of course, you can make items consume multiple rows just like you can with columns. You define the horizontal lines you want an item to start and stop at using the grid-row property on a grid item.
+                     </p>
+ 
+                 </secton>
+                 </section>
+                <section class="nextpg">
+                 <hr class="line">
+                <a class="pagebutton" href="#">Next Page</a>
+                </section>     
+         
+         
+             <footer>
+                <p>&copy; @stefancode 2020</p>
+            </footer>
+        </article>
+        </body>
         
-        </main>
-        <footer>
-            <p>&copy; @stefancode 2020</p>
-        </footer>
-
-    </body>
-
 </html>

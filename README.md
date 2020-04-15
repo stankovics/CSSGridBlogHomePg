@@ -9,5 +9,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 I would like to add here @media queries to make it nicer on small screens. 
  + @media queries done 
 # Preview
-[Screenshot](https://imgur.com/R6bGafi)
+[Screenshot](https://i.imgur.com/R6bGafi.png)
 
